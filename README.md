@@ -1,4 +1,4 @@
-Memory Game with Pokemons. Live Demon on the side.
+Memory Game with Pokemons. Live Demo on the side.
 
 
 # Getting Started with Create React App
