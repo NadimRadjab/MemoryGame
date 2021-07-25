@@ -59,6 +59,7 @@ const styles = {
         gridTemplateColumns: 'repeat(5, 1fr)',
         gridGap: '1rem',
         margin: '1.5rem',
+        marginBottom: '5rem',
         [sizes.down('xl')]: {
             height: 'calc(100vh - 235px)',
         },
@@ -74,6 +75,8 @@ const styles = {
     footer: {
         display: 'flex',
         alignItems: 'center',
+        position: 'absolute',
+        bottom: '0',
         fontSize: '20px',
         justifyContent: 'center',
         height: '44px',

@@ -30,8 +30,12 @@ const styles = {
                 width: '100%',
                 height: '190px',
                 '& img': {
-                    width: '130px',
-                    height: '130px'
+                    width: '120px',
+                    height: '125px'
+                },
+                '&:hover': {
+                    transform: ' scale(1)',
+                    cursor: 'pointer',
                 },
             }
         }

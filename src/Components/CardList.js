@@ -64,6 +64,8 @@ function CardList({ pokemons, classes }) {
                 <p>Created by Nadim Radjab&copy; </p>
                 <a href='https://github.com/NadimRadjab'><i className="fab fa-github"></i></a>
             </footer>
+
+
         </div>
     )
 }
