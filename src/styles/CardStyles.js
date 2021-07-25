@@ -47,6 +47,9 @@ const styles = {
         [sizes.down('md')]: {
             fontSize: '17px'
         },
+        [sizes.down('xs')]: {
+            fontSize: '15px'
+        },
     }
 
 }

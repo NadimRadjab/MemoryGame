@@ -64,10 +64,11 @@ const styles = {
             height: 'calc(100vh - 235px)',
         },
         [sizes.down('sm')]: {
-            gridTemplateColumns: 'repeat(4, 1fr)',
-            height: 'calc(100vh - 120px)',
+            gridTemplateColumns: 'repeat(3, 1fr)',
+            height: 'calc(100vh + 120px )',
         },
         [sizes.down('xs')]: {
+            marginBottom: '8rem',
             gridTemplateColumns: 'repeat(3, 1fr)',
             height: 'calc(100vh + 25px)'
         }
@@ -75,15 +76,11 @@ const styles = {
     footer: {
         display: 'flex',
         alignItems: 'center',
-        position: 'absolute',
-        bottom: '0',
         fontSize: '20px',
         justifyContent: 'center',
         height: '44px',
         width: '100%',
         backgroundColor: '#8D9DB9',
-
-        bottom: 0,
         '& p': {
             margin: '1rem'
         },
